@@ -1,0 +1,728 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AALOAD	enjarify/jvm/jvmops.py	/^AALOAD = 0x32$/;"	v
+AASTORE	enjarify/jvm/jvmops.py	/^AASTORE = 0x53$/;"	v
+ACC_ABSTRACT	enjarify/flags.py	/^ACC_ABSTRACT = 0x400$/;"	v
+ACC_ANNOTATION	enjarify/flags.py	/^ACC_ANNOTATION = 0x2000$/;"	v
+ACC_BRIDGE	enjarify/flags.py	/^ACC_BRIDGE = 0x40$/;"	v
+ACC_CONSTRUCTOR	enjarify/flags.py	/^ACC_CONSTRUCTOR = 0x10000$/;"	v
+ACC_DECLARED_SYNCHRONIZED	enjarify/flags.py	/^ACC_DECLARED_SYNCHRONIZED = 0x20000$/;"	v
+ACC_ENUM	enjarify/flags.py	/^ACC_ENUM = 0x4000$/;"	v
+ACC_FINAL	enjarify/flags.py	/^ACC_FINAL = 0x10$/;"	v
+ACC_INTERFACE	enjarify/flags.py	/^ACC_INTERFACE = 0x200$/;"	v
+ACC_NATIVE	enjarify/flags.py	/^ACC_NATIVE = 0x100$/;"	v
+ACC_PRIVATE	enjarify/flags.py	/^ACC_PRIVATE = 0x2$/;"	v
+ACC_PROTECTED	enjarify/flags.py	/^ACC_PROTECTED = 0x4$/;"	v
+ACC_PUBLIC	enjarify/flags.py	/^ACC_PUBLIC = 0x1$/;"	v
+ACC_STATIC	enjarify/flags.py	/^ACC_STATIC = 0x8$/;"	v
+ACC_STRICT	enjarify/flags.py	/^ACC_STRICT = 0x800$/;"	v
+ACC_SUPER	enjarify/flags.py	/^ACC_SUPER = 0x20$/;"	v
+ACC_SYNCHRONIZED	enjarify/flags.py	/^ACC_SYNCHRONIZED = 0x20$/;"	v
+ACC_SYNTHETIC	enjarify/flags.py	/^ACC_SYNTHETIC = 0x1000$/;"	v
+ACC_TRANSIENT	enjarify/flags.py	/^ACC_TRANSIENT = 0x80$/;"	v
+ACC_VARARGS	enjarify/flags.py	/^ACC_VARARGS = 0x80$/;"	v
+ACC_VOLATILE	enjarify/flags.py	/^ACC_VOLATILE = 0x40$/;"	v
+ACONST_NULL	enjarify/jvm/jvmops.py	/^ACONST_NULL = 0x01$/;"	v
+ALL	enjarify/jvm/optimization/options.py	/^ALL = Options(inline_consts=True, prune_store_loads=True, copy_propagation=True, remove_unused_regs=True, dup2ize=True,$/;"	v
+ALL	enjarify/jvm/scalartypes.py	/^ALL = ZERO | C64$/;"	v
+ALOAD	enjarify/jvm/jvmops.py	/^ALOAD = 0x19$/;"	v
+ALOAD_0	enjarify/jvm/jvmops.py	/^ALOAD_0 = 0x2A$/;"	v
+ALOAD_1	enjarify/jvm/jvmops.py	/^ALOAD_1 = 0x2B$/;"	v
+ALOAD_2	enjarify/jvm/jvmops.py	/^ALOAD_2 = 0x2C$/;"	v
+ALOAD_3	enjarify/jvm/jvmops.py	/^ALOAD_3 = 0x2D$/;"	v
+ANEWARRAY	enjarify/jvm/jvmops.py	/^ANEWARRAY = 0xBD$/;"	v
+ARETURN	enjarify/jvm/jvmops.py	/^ARETURN = 0xB0$/;"	v
+ARRAYLENGTH	enjarify/jvm/jvmops.py	/^ARRAYLENGTH = 0xBE$/;"	v
+ASTORE	enjarify/jvm/jvmops.py	/^ASTORE = 0x3A$/;"	v
+ASTORE_0	enjarify/jvm/jvmops.py	/^ASTORE_0 = 0x4B$/;"	v
+ASTORE_1	enjarify/jvm/jvmops.py	/^ASTORE_1 = 0x4C$/;"	v
+ASTORE_2	enjarify/jvm/jvmops.py	/^ASTORE_2 = 0x4D$/;"	v
+ASTORE_3	enjarify/jvm/jvmops.py	/^ASTORE_3 = 0x4E$/;"	v
+ATHROW	enjarify/jvm/jvmops.py	/^ATHROW = 0xBF$/;"	v
+Activity	tests/stubs/src/android/app/Activity.java	/^public class Activity {$/;"	c
+ArrayGet	enjarify/dalvik.py	/^ArrayGet = next(_it)$/;"	v
+ArrayLen	enjarify/dalvik.py	/^ArrayLen = next(_it)$/;"	v
+ArrayPut	enjarify/dalvik.py	/^ArrayPut = next(_it)$/;"	v
+BALOAD	enjarify/jvm/jvmops.py	/^BALOAD = 0x33$/;"	v
+BASTORE	enjarify/jvm/jvmops.py	/^BASTORE = 0x54$/;"	v
+BINARY	enjarify/jvm/mathops.py	/^BINARY = {$/;"	v
+BINARY_LIT	enjarify/jvm/mathops.py	/^BINARY_LIT = {$/;"	v
+BIPUSH	enjarify/jvm/jvmops.py	/^BIPUSH = 0x10$/;"	v
+BinaryOp	enjarify/dalvik.py	/^BinaryOp = next(_it)$/;"	v
+BinaryOpConst	enjarify/dalvik.py	/^BinaryOpConst = next(_it)$/;"	v
+Bundle	tests/stubs/src/android/os/Bundle.java	/^public class Bundle {$/;"	c
+C32	enjarify/jvm/scalartypes.py	/^C32 = INT | FLOAT$/;"	v
+C64	enjarify/jvm/scalartypes.py	/^C64 = LONG | DOUBLE$/;"	v
+CALOAD	enjarify/jvm/jvmops.py	/^CALOAD = 0x34$/;"	v
+CASTORE	enjarify/jvm/jvmops.py	/^CASTORE = 0x55$/;"	v
+CHECKCAST	enjarify/jvm/jvmops.py	/^CHECKCAST = 0xC0$/;"	v
+CLASS_FLAGS	enjarify/flags.py	/^CLASS_FLAGS = ACC_PUBLIC | ACC_FINAL | ACC_SUPER | ACC_INTERFACE | ACC_ABSTRACT | ACC_SYNTHETIC | ACC_ANNOTATION | ACC_ENUM$/;"	v
+CONSTANT_Class	enjarify/jvm/constantpool.py	/^CONSTANT_Class = 7$/;"	v
+CONSTANT_Double	enjarify/jvm/constantpool.py	/^CONSTANT_Double = 6$/;"	v
+CONSTANT_Fieldref	enjarify/jvm/constantpool.py	/^CONSTANT_Fieldref = 9$/;"	v
+CONSTANT_Float	enjarify/jvm/constantpool.py	/^CONSTANT_Float = 4$/;"	v
+CONSTANT_Integer	enjarify/jvm/constantpool.py	/^CONSTANT_Integer = 3$/;"	v
+CONSTANT_InterfaceMethodref	enjarify/jvm/constantpool.py	/^CONSTANT_InterfaceMethodref = 11$/;"	v
+CONSTANT_Long	enjarify/jvm/constantpool.py	/^CONSTANT_Long = 5$/;"	v
+CONSTANT_Methodref	enjarify/jvm/constantpool.py	/^CONSTANT_Methodref = 10$/;"	v
+CONSTANT_NameAndType	enjarify/jvm/constantpool.py	/^CONSTANT_NameAndType = 12$/;"	v
+CONSTANT_String	enjarify/jvm/constantpool.py	/^CONSTANT_String = 8$/;"	v
+CONSTANT_Utf8	enjarify/jvm/constantpool.py	/^CONSTANT_Utf8 = 1$/;"	v
+CONTROL_FLOW_OPS	enjarify/typeinference/typeinference.py	/^CONTROL_FLOW_OPS = {dalvik.Goto, dalvik.If, dalvik.IfZ, dalvik.Switch}$/;"	v
+CheckCast	enjarify/dalvik.py	/^CheckCast = next(_it)$/;"	v
+ClassData	enjarify/parsedex.py	/^class ClassData:$/;"	c
+ClassfileLimitExceeded	enjarify/jvm/error.py	/^class ClassfileLimitExceeded(Exception): pass$/;"	c
+Cmp	enjarify/dalvik.py	/^Cmp = next(_it)$/;"	v
+CodeItem	enjarify/parsedex.py	/^class CodeItem:$/;"	c
+Const32	enjarify/dalvik.py	/^Const32 = next(_it)$/;"	v
+Const64	enjarify/dalvik.py	/^Const64 = next(_it)$/;"	v
+ConstClass	enjarify/dalvik.py	/^ConstClass = next(_it)$/;"	v
+ConstInliner	enjarify/jvm/optimization/stack.py	/^class ConstInliner(NoExceptVisitorBase):$/;"	c
+ConstString	enjarify/dalvik.py	/^ConstString = next(_it)$/;"	v
+ConstantPoolBase	enjarify/jvm/constantpool.py	/^class ConstantPoolBase:$/;"	c
+D2F	enjarify/jvm/jvmops.py	/^D2F = 0x90$/;"	v
+D2I	enjarify/jvm/jvmops.py	/^D2I = 0x8E$/;"	v
+D2L	enjarify/jvm/jvmops.py	/^D2L = 0x8F$/;"	v
+DADD	enjarify/jvm/jvmops.py	/^DADD = 0x63$/;"	v
+DALOAD	enjarify/jvm/jvmops.py	/^DALOAD = 0x31$/;"	v
+DASTORE	enjarify/jvm/jvmops.py	/^DASTORE = 0x52$/;"	v
+DCMPG	enjarify/jvm/jvmops.py	/^DCMPG = 0x98$/;"	v
+DCMPL	enjarify/jvm/jvmops.py	/^DCMPL = 0x97$/;"	v
+DCONST_0	enjarify/jvm/jvmops.py	/^DCONST_0 = 0x0E$/;"	v
+DCONST_1	enjarify/jvm/jvmops.py	/^DCONST_1 = 0x0F$/;"	v
+DDIV	enjarify/jvm/jvmops.py	/^DDIV = 0x6F$/;"	v
+DLOAD	enjarify/jvm/jvmops.py	/^DLOAD = 0x18$/;"	v
+DLOAD_0	enjarify/jvm/jvmops.py	/^DLOAD_0 = 0x26$/;"	v
+DLOAD_1	enjarify/jvm/jvmops.py	/^DLOAD_1 = 0x27$/;"	v
+DLOAD_2	enjarify/jvm/jvmops.py	/^DLOAD_2 = 0x28$/;"	v
+DLOAD_3	enjarify/jvm/jvmops.py	/^DLOAD_3 = 0x29$/;"	v
+DMUL	enjarify/jvm/jvmops.py	/^DMUL = 0x6B$/;"	v
+DNEG	enjarify/jvm/jvmops.py	/^DNEG = 0x77$/;"	v
+DOUBLE	enjarify/jvm/scalartypes.py	/^DOUBLE = 1 << 4$/;"	v
+DOUBLES	enjarify/jvm/constants/lookup.py	/^DOUBLES = {$/;"	v
+DOUBLE_INF	enjarify/jvm/constants/genlookup.py	/^DOUBLE_INF = 0x7FF << 52$/;"	v
+DOUBLE_NAN	enjarify/jvm/constants/genlookup.py	/^DOUBLE_NAN = u64(-1)$/;"	v
+DOUBLE_NINF	enjarify/jvm/constants/genlookup.py	/^DOUBLE_NINF = DOUBLE_INF ^ DOUBLE_SIGN$/;"	v
+DOUBLE_SIGN	enjarify/jvm/constants/genlookup.py	/^DOUBLE_SIGN = 1<<63$/;"	v
+DREM	enjarify/jvm/jvmops.py	/^DREM = 0x73$/;"	v
+DRETURN	enjarify/jvm/jvmops.py	/^DRETURN = 0xAF$/;"	v
+DSTORE	enjarify/jvm/jvmops.py	/^DSTORE = 0x39$/;"	v
+DSTORE_0	enjarify/jvm/jvmops.py	/^DSTORE_0 = 0x47$/;"	v
+DSTORE_1	enjarify/jvm/jvmops.py	/^DSTORE_1 = 0x48$/;"	v
+DSTORE_2	enjarify/jvm/jvmops.py	/^DSTORE_2 = 0x49$/;"	v
+DSTORE_3	enjarify/jvm/jvmops.py	/^DSTORE_3 = 0x4A$/;"	v
+DSUB	enjarify/jvm/jvmops.py	/^DSUB = 0x67$/;"	v
+DUP	enjarify/jvm/jvmops.py	/^DUP = 0x59$/;"	v
+DUP2	enjarify/jvm/jvmops.py	/^DUP2 = 0x5C$/;"	v
+DUP2_X1	enjarify/jvm/jvmops.py	/^DUP2_X1 = 0x5D$/;"	v
+DUP2_X2	enjarify/jvm/jvmops.py	/^DUP2_X2 = 0x5E$/;"	v
+DUP_X1	enjarify/jvm/jvmops.py	/^DUP_X1 = 0x5A$/;"	v
+DUP_X2	enjarify/jvm/jvmops.py	/^DUP_X2 = 0x5B$/;"	v
+DalvikInstruction	enjarify/dalvik.py	/^class DalvikInstruction:$/;"	c
+DexClass	enjarify/parsedex.py	/^class DexClass:$/;"	c
+DexFile	enjarify/parsedex.py	/^class DexFile:$/;"	c
+Dup	enjarify/jvm/ir.py	/^def Dup(): return Other(bytes([DUP]))$/;"	f
+Dup2	enjarify/jvm/ir.py	/^def Dup2(): return Other(bytes([DUP2]))$/;"	f
+F2D	enjarify/jvm/jvmops.py	/^F2D = 0x8D$/;"	v
+F2I	enjarify/jvm/jvmops.py	/^F2I = 0x8B$/;"	v
+F2L	enjarify/jvm/jvmops.py	/^F2L = 0x8C$/;"	v
+FADD	enjarify/jvm/jvmops.py	/^FADD = 0x62$/;"	v
+FALOAD	enjarify/jvm/jvmops.py	/^FALOAD = 0x30$/;"	v
+FASTORE	enjarify/jvm/jvmops.py	/^FASTORE = 0x51$/;"	v
+FCMPG	enjarify/jvm/jvmops.py	/^FCMPG = 0x96$/;"	v
+FCMPL	enjarify/jvm/jvmops.py	/^FCMPL = 0x95$/;"	v
+FCONST_0	enjarify/jvm/jvmops.py	/^FCONST_0 = 0x0B$/;"	v
+FCONST_1	enjarify/jvm/jvmops.py	/^FCONST_1 = 0x0C$/;"	v
+FCONST_2	enjarify/jvm/jvmops.py	/^FCONST_2 = 0x0D$/;"	v
+FDIV	enjarify/jvm/jvmops.py	/^FDIV = 0x6E$/;"	v
+FIELD_FLAGS	enjarify/flags.py	/^FIELD_FLAGS = ACC_PUBLIC | ACC_PRIVATE | ACC_PROTECTED | ACC_STATIC | ACC_FINAL | ACC_VOLATILE | ACC_TRANSIENT | ACC_SYNTHETIC | ACC_ENUM$/;"	v
+FLOAD	enjarify/jvm/jvmops.py	/^FLOAD = 0x17$/;"	v
+FLOAD_0	enjarify/jvm/jvmops.py	/^FLOAD_0 = 0x22$/;"	v
+FLOAD_1	enjarify/jvm/jvmops.py	/^FLOAD_1 = 0x23$/;"	v
+FLOAD_2	enjarify/jvm/jvmops.py	/^FLOAD_2 = 0x24$/;"	v
+FLOAD_3	enjarify/jvm/jvmops.py	/^FLOAD_3 = 0x25$/;"	v
+FLOAT	enjarify/jvm/scalartypes.py	/^FLOAT = 1 << 1$/;"	v
+FLOATS	enjarify/jvm/constants/lookup.py	/^FLOATS = {$/;"	v
+FLOAT_INF	enjarify/jvm/constants/genlookup.py	/^FLOAT_INF = 0xFF << 23$/;"	v
+FLOAT_NAN	enjarify/jvm/constants/genlookup.py	/^FLOAT_NAN = u32(-1)$/;"	v
+FLOAT_NINF	enjarify/jvm/constants/genlookup.py	/^FLOAT_NINF = FLOAT_INF ^ FLOAT_SIGN$/;"	v
+FLOAT_SIGN	enjarify/jvm/constants/genlookup.py	/^FLOAT_SIGN = 1<<31$/;"	v
+FMUL	enjarify/jvm/jvmops.py	/^FMUL = 0x6A$/;"	v
+FNEG	enjarify/jvm/jvmops.py	/^FNEG = 0x76$/;"	v
+FREM	enjarify/jvm/jvmops.py	/^FREM = 0x72$/;"	v
+FRETURN	enjarify/jvm/jvmops.py	/^FRETURN = 0xAE$/;"	v
+FSTORE	enjarify/jvm/jvmops.py	/^FSTORE = 0x38$/;"	v
+FSTORE_0	enjarify/jvm/jvmops.py	/^FSTORE_0 = 0x43$/;"	v
+FSTORE_1	enjarify/jvm/jvmops.py	/^FSTORE_1 = 0x44$/;"	v
+FSTORE_2	enjarify/jvm/jvmops.py	/^FSTORE_2 = 0x45$/;"	v
+FSTORE_3	enjarify/jvm/jvmops.py	/^FSTORE_3 = 0x46$/;"	v
+FSUB	enjarify/jvm/jvmops.py	/^FSUB = 0x66$/;"	v
+FUNCS	enjarify/typeinference/typeinference.py	/^FUNCS = {$/;"	v
+Field	enjarify/parsedex.py	/^class Field:$/;"	c
+FieldId	enjarify/parsedex.py	/^class FieldId(MFIdMixin):$/;"	c
+FillArrayData	enjarify/dalvik.py	/^FillArrayData = next(_it)$/;"	v
+FilledNewArray	enjarify/dalvik.py	/^FilledNewArray = next(_it)$/;"	v
+GETFIELD	enjarify/jvm/jvmops.py	/^GETFIELD = 0xB4$/;"	v
+GETSTATIC	enjarify/jvm/jvmops.py	/^GETSTATIC = 0xB2$/;"	v
+GOTO	enjarify/jvm/jvmops.py	/^GOTO = 0xA7$/;"	v
+GOTO_W	enjarify/jvm/jvmops.py	/^GOTO_W = 0xC8$/;"	v
+Goto	enjarify/dalvik.py	/^Goto = next(_it)$/;"	v
+Goto	enjarify/jvm/ir.py	/^class Goto(LazyJumpBase):$/;"	c
+I2B	enjarify/jvm/jvmops.py	/^I2B = 0x91$/;"	v
+I2C	enjarify/jvm/jvmops.py	/^I2C = 0x92$/;"	v
+I2D	enjarify/jvm/jvmops.py	/^I2D = 0x87$/;"	v
+I2F	enjarify/jvm/jvmops.py	/^I2F = 0x86$/;"	v
+I2L	enjarify/jvm/jvmops.py	/^I2L = 0x85$/;"	v
+I2S	enjarify/jvm/jvmops.py	/^I2S = 0x93$/;"	v
+IADD	enjarify/jvm/jvmops.py	/^IADD = 0x60$/;"	v
+IALOAD	enjarify/jvm/jvmops.py	/^IALOAD = 0x2E$/;"	v
+IAND	enjarify/jvm/jvmops.py	/^IAND = 0x7E$/;"	v
+IASTORE	enjarify/jvm/jvmops.py	/^IASTORE = 0x4F$/;"	v
+ICONST_0	enjarify/jvm/jvmops.py	/^ICONST_0 = 0x03$/;"	v
+ICONST_1	enjarify/jvm/jvmops.py	/^ICONST_1 = 0x04$/;"	v
+ICONST_2	enjarify/jvm/jvmops.py	/^ICONST_2 = 0x05$/;"	v
+ICONST_3	enjarify/jvm/jvmops.py	/^ICONST_3 = 0x06$/;"	v
+ICONST_4	enjarify/jvm/jvmops.py	/^ICONST_4 = 0x07$/;"	v
+ICONST_5	enjarify/jvm/jvmops.py	/^ICONST_5 = 0x08$/;"	v
+ICONST_M1	enjarify/jvm/jvmops.py	/^ICONST_M1 = 0x02$/;"	v
+IDIV	enjarify/jvm/jvmops.py	/^IDIV = 0x6C$/;"	v
+IFEQ	enjarify/jvm/jvmops.py	/^IFEQ = 0x99$/;"	v
+IFGE	enjarify/jvm/jvmops.py	/^IFGE = 0x9C$/;"	v
+IFGT	enjarify/jvm/jvmops.py	/^IFGT = 0x9D$/;"	v
+IFLE	enjarify/jvm/jvmops.py	/^IFLE = 0x9E$/;"	v
+IFLT	enjarify/jvm/jvmops.py	/^IFLT = 0x9B$/;"	v
+IFNE	enjarify/jvm/jvmops.py	/^IFNE = 0x9A$/;"	v
+IFNONNULL	enjarify/jvm/jvmops.py	/^IFNONNULL = 0xC7$/;"	v
+IFNULL	enjarify/jvm/jvmops.py	/^IFNULL = 0xC6$/;"	v
+IF_ACMPEQ	enjarify/jvm/jvmops.py	/^IF_ACMPEQ = 0xA5$/;"	v
+IF_ACMPNE	enjarify/jvm/jvmops.py	/^IF_ACMPNE = 0xA6$/;"	v
+IF_ICMPEQ	enjarify/jvm/jvmops.py	/^IF_ICMPEQ = 0x9F$/;"	v
+IF_ICMPGE	enjarify/jvm/jvmops.py	/^IF_ICMPGE = 0xA2$/;"	v
+IF_ICMPGT	enjarify/jvm/jvmops.py	/^IF_ICMPGT = 0xA3$/;"	v
+IF_ICMPLE	enjarify/jvm/jvmops.py	/^IF_ICMPLE = 0xA4$/;"	v
+IF_ICMPLT	enjarify/jvm/jvmops.py	/^IF_ICMPLT = 0xA1$/;"	v
+IF_ICMPNE	enjarify/jvm/jvmops.py	/^IF_ICMPNE = 0xA0$/;"	v
+IINC	enjarify/jvm/jvmops.py	/^IINC = 0x84$/;"	v
+ILOAD	enjarify/jvm/jvmops.py	/^ILOAD = 0x15$/;"	v
+ILOAD_0	enjarify/jvm/jvmops.py	/^ILOAD_0 = 0x1A$/;"	v
+ILOAD_1	enjarify/jvm/jvmops.py	/^ILOAD_1 = 0x1B$/;"	v
+ILOAD_2	enjarify/jvm/jvmops.py	/^ILOAD_2 = 0x1C$/;"	v
+ILOAD_3	enjarify/jvm/jvmops.py	/^ILOAD_3 = 0x1D$/;"	v
+IMUL	enjarify/jvm/jvmops.py	/^IMUL = 0x68$/;"	v
+INEG	enjarify/jvm/jvmops.py	/^INEG = 0x74$/;"	v
+INSTANCEOF	enjarify/jvm/jvmops.py	/^INSTANCEOF = 0xC1$/;"	v
+INSTRUCTION_FORMAT	enjarify/dalvikformats.py	/^INSTRUCTION_FORMAT = util.keysToRanges({$/;"	v
+INT	enjarify/jvm/scalartypes.py	/^INT = 1 << 0$/;"	v
+INTS	enjarify/jvm/constants/lookup.py	/^INTS = {$/;"	v
+INVALID	enjarify/jvm/arraytypes.py	/^INVALID = b'INVALID'$/;"	v
+INVALID	enjarify/jvm/scalartypes.py	/^INVALID = 0$/;"	v
+INVOKEDYNAMIC	enjarify/jvm/jvmops.py	/^INVOKEDYNAMIC = 0xBA$/;"	v
+INVOKEINTERFACE	enjarify/jvm/jvmops.py	/^INVOKEINTERFACE = 0xB9$/;"	v
+INVOKESPECIAL	enjarify/jvm/jvmops.py	/^INVOKESPECIAL = 0xB7$/;"	v
+INVOKESTATIC	enjarify/jvm/jvmops.py	/^INVOKESTATIC = 0xB8$/;"	v
+INVOKEVIRTUAL	enjarify/jvm/jvmops.py	/^INVOKEVIRTUAL = 0xB6$/;"	v
+INVOKE_TYPES	enjarify/dalvik.py	/^INVOKE_TYPES = InvokeVirtual, InvokeSuper, InvokeDirect, InvokeStatic, InvokeInterface$/;"	v
+IOR	enjarify/jvm/jvmops.py	/^IOR = 0x80$/;"	v
+IRBlock	enjarify/jvm/writeir.py	/^class IRBlock:$/;"	c
+IREM	enjarify/jvm/jvmops.py	/^IREM = 0x70$/;"	v
+IRETURN	enjarify/jvm/jvmops.py	/^IRETURN = 0xAC$/;"	v
+IRWriter	enjarify/jvm/writeir.py	/^class IRWriter:$/;"	c
+ISHL	enjarify/jvm/jvmops.py	/^ISHL = 0x78$/;"	v
+ISHR	enjarify/jvm/jvmops.py	/^ISHR = 0x7A$/;"	v
+ISTORE	enjarify/jvm/jvmops.py	/^ISTORE = 0x36$/;"	v
+ISTORE_0	enjarify/jvm/jvmops.py	/^ISTORE_0 = 0x3B$/;"	v
+ISTORE_1	enjarify/jvm/jvmops.py	/^ISTORE_1 = 0x3C$/;"	v
+ISTORE_2	enjarify/jvm/jvmops.py	/^ISTORE_2 = 0x3D$/;"	v
+ISTORE_3	enjarify/jvm/jvmops.py	/^ISTORE_3 = 0x3E$/;"	v
+ISUB	enjarify/jvm/jvmops.py	/^ISUB = 0x64$/;"	v
+IUSHR	enjarify/jvm/jvmops.py	/^IUSHR = 0x7C$/;"	v
+IXOR	enjarify/jvm/jvmops.py	/^IXOR = 0x82$/;"	v
+If	enjarify/dalvik.py	/^If = next(_it)$/;"	v
+If	enjarify/jvm/ir.py	/^class If(LazyJumpBase):$/;"	c
+IfZ	enjarify/dalvik.py	/^IfZ = next(_it)$/;"	v
+InstanceGet	enjarify/dalvik.py	/^InstanceGet = next(_it)$/;"	v
+InstanceOf	enjarify/dalvik.py	/^InstanceOf = next(_it)$/;"	v
+InstancePut	enjarify/dalvik.py	/^InstancePut = next(_it)$/;"	v
+InvokeDirect	enjarify/dalvik.py	/^InvokeDirect = next(_it)$/;"	v
+InvokeInterface	enjarify/dalvik.py	/^InvokeInterface = next(_it)$/;"	v
+InvokeStatic	enjarify/dalvik.py	/^InvokeStatic = next(_it)$/;"	v
+InvokeSuper	enjarify/dalvik.py	/^InvokeSuper = next(_it)$/;"	v
+InvokeVirtual	enjarify/dalvik.py	/^InvokeVirtual = next(_it)$/;"	v
+JSR	enjarify/jvm/jvmops.py	/^JSR = 0xA8$/;"	v
+JSR_W	enjarify/jvm/jvmops.py	/^JSR_W = 0xC9$/;"	v
+JvmInstruction	enjarify/jvm/ir.py	/^class JvmInstruction:$/;"	c
+L2D	enjarify/jvm/jvmops.py	/^L2D = 0x8A$/;"	v
+L2F	enjarify/jvm/jvmops.py	/^L2F = 0x89$/;"	v
+L2I	enjarify/jvm/jvmops.py	/^L2I = 0x88$/;"	v
+LADD	enjarify/jvm/jvmops.py	/^LADD = 0x61$/;"	v
+LALOAD	enjarify/jvm/jvmops.py	/^LALOAD = 0x2F$/;"	v
+LAND	enjarify/jvm/jvmops.py	/^LAND = 0x7F$/;"	v
+LASTORE	enjarify/jvm/jvmops.py	/^LASTORE = 0x50$/;"	v
+LCMP	enjarify/jvm/jvmops.py	/^LCMP = 0x94$/;"	v
+LCONST_0	enjarify/jvm/jvmops.py	/^LCONST_0 = 0x09$/;"	v
+LCONST_1	enjarify/jvm/jvmops.py	/^LCONST_1 = 0x0A$/;"	v
+LDC	enjarify/jvm/jvmops.py	/^LDC = 0x12$/;"	v
+LDC2_W	enjarify/jvm/jvmops.py	/^LDC2_W = 0x14$/;"	v
+LDC_W	enjarify/jvm/jvmops.py	/^LDC_W = 0x13$/;"	v
+LDIV	enjarify/jvm/jvmops.py	/^LDIV = 0x6D$/;"	v
+LLOAD	enjarify/jvm/jvmops.py	/^LLOAD = 0x16$/;"	v
+LLOAD_0	enjarify/jvm/jvmops.py	/^LLOAD_0 = 0x1E$/;"	v
+LLOAD_1	enjarify/jvm/jvmops.py	/^LLOAD_1 = 0x1F$/;"	v
+LLOAD_2	enjarify/jvm/jvmops.py	/^LLOAD_2 = 0x20$/;"	v
+LLOAD_3	enjarify/jvm/jvmops.py	/^LLOAD_3 = 0x21$/;"	v
+LMUL	enjarify/jvm/jvmops.py	/^LMUL = 0x69$/;"	v
+LNEG	enjarify/jvm/jvmops.py	/^LNEG = 0x75$/;"	v
+LONG	enjarify/jvm/scalartypes.py	/^LONG = 1 << 3$/;"	v
+LONGS	enjarify/jvm/constants/lookup.py	/^LONGS = {$/;"	v
+LOOKUPSWITCH	enjarify/jvm/jvmops.py	/^LOOKUPSWITCH = 0xAB$/;"	v
+LOR	enjarify/jvm/jvmops.py	/^LOR = 0x81$/;"	v
+LREM	enjarify/jvm/jvmops.py	/^LREM = 0x71$/;"	v
+LRETURN	enjarify/jvm/jvmops.py	/^LRETURN = 0xAD$/;"	v
+LSHL	enjarify/jvm/jvmops.py	/^LSHL = 0x79$/;"	v
+LSHR	enjarify/jvm/jvmops.py	/^LSHR = 0x7B$/;"	v
+LSTORE	enjarify/jvm/jvmops.py	/^LSTORE = 0x37$/;"	v
+LSTORE_0	enjarify/jvm/jvmops.py	/^LSTORE_0 = 0x3F$/;"	v
+LSTORE_1	enjarify/jvm/jvmops.py	/^LSTORE_1 = 0x40$/;"	v
+LSTORE_2	enjarify/jvm/jvmops.py	/^LSTORE_2 = 0x41$/;"	v
+LSTORE_3	enjarify/jvm/jvmops.py	/^LSTORE_3 = 0x42$/;"	v
+LSUB	enjarify/jvm/jvmops.py	/^LSUB = 0x65$/;"	v
+LUSHR	enjarify/jvm/jvmops.py	/^LUSHR = 0x7D$/;"	v
+LXOR	enjarify/jvm/jvmops.py	/^LXOR = 0x83$/;"	v
+Label	enjarify/jvm/ir.py	/^class Label(JvmInstruction):$/;"	c
+LazyJumpBase	enjarify/jvm/ir.py	/^class LazyJumpBase(JvmInstruction):$/;"	c
+Log	tests/stubs/src/android/util/Log.java	/^public class Log {$/;"	c
+MAX_CONST	enjarify/jvm/constantpool.py	/^MAX_CONST = CONSTANT_NameAndType$/;"	v
+METHOD_FLAGS	enjarify/flags.py	/^METHOD_FLAGS = ACC_PUBLIC | ACC_PRIVATE | ACC_PROTECTED | ACC_STATIC | ACC_FINAL | ACC_SYNCHRONIZED | ACC_BRIDGE | ACC_VARARGS | ACC_NATIVE | ACC_ABSTRACT | ACC_STRICT | ACC_SYNTHETIC$/;"	v
+MFIdMixin	enjarify/parsedex.py	/^class MFIdMixin:$/;"	c
+MONITORENTER	enjarify/jvm/jvmops.py	/^MONITORENTER = 0xC2$/;"	v
+MONITOREXIT	enjarify/jvm/jvmops.py	/^MONITOREXIT = 0xC3$/;"	v
+MULTIANEWARRAY	enjarify/jvm/jvmops.py	/^MULTIANEWARRAY = 0xC5$/;"	v
+Main	tests/stubs/src/Main.java	/^public class Main {$/;"	c
+Method	enjarify/parsedex.py	/^class Method:$/;"	c
+MethodId	enjarify/parsedex.py	/^class MethodId(MFIdMixin):$/;"	c
+MonitorEnter	enjarify/dalvik.py	/^MonitorEnter = next(_it)$/;"	v
+MonitorExit	enjarify/dalvik.py	/^MonitorExit = next(_it)$/;"	v
+Move	enjarify/dalvik.py	/^Move = next(_it)$/;"	v
+MoveResult	enjarify/dalvik.py	/^MoveResult = next(_it)$/;"	v
+MoveWide	enjarify/dalvik.py	/^MoveWide = next(_it)$/;"	v
+NEW	enjarify/jvm/jvmops.py	/^NEW = 0xBB$/;"	v
+NEWARRAY	enjarify/jvm/jvmops.py	/^NEWARRAY = 0xBC$/;"	v
+NONE	enjarify/jvm/optimization/options.py	/^NONE = Options()$/;"	v
+NOP	enjarify/jvm/jvmops.py	/^NOP = 0x00$/;"	v
+NO_INDEX	enjarify/parsedex.py	/^NO_INDEX = 0xFFFFFFFF$/;"	v
+NULL	enjarify/jvm/arraytypes.py	/^NULL = b'NULL'$/;"	v
+NewArray	enjarify/dalvik.py	/^NewArray = next(_it)$/;"	v
+NewInstance	enjarify/dalvik.py	/^NewInstance = next(_it)$/;"	v
+NoExceptVisitorBase	enjarify/jvm/optimization/stack.py	/^class NoExceptVisitorBase:$/;"	c
+Nop	enjarify/dalvik.py	/^Nop = next(_it)$/;"	v
+OBJ	enjarify/jvm/scalartypes.py	/^OBJ = 1 << 2$/;"	v
+OPCODES	enjarify/dalvik.py	/^OPCODES = util.keysToRanges({$/;"	v
+Options	enjarify/jvm/optimization/options.py	/^class Options:$/;"	c
+Other	enjarify/jvm/ir.py	/^class Other(JvmInstruction):$/;"	c
+OtherConstant	enjarify/jvm/ir.py	/^class OtherConstant(JvmInstruction):$/;"	c
+PLACEHOLDER_ENTRY	enjarify/jvm/constantpool.py	/^PLACEHOLDER_ENTRY = struct.pack('>BH', CONSTANT_Utf8, 0)$/;"	v
+POP	enjarify/jvm/jvmops.py	/^POP = 0x57$/;"	v
+POP2	enjarify/jvm/jvmops.py	/^POP2 = 0x58$/;"	v
+PRETTY	enjarify/jvm/optimization/options.py	/^PRETTY = Options(inline_consts=True, prune_store_loads=True, copy_propagation=True, remove_unused_regs=True)$/;"	v
+PRUNED_THROW_TYPES	enjarify/dalvik.py	/^PRUNED_THROW_TYPES = INVOKE_TYPES + (MonitorEnter, MonitorExit, CheckCast, ArrayLen, NewArray, NewInstance, FilledNewArray, FillArrayData, Throw, ArrayGet, ArrayPut, InstanceGet, InstancePut, StaticGet, StaticPut, BinaryOp, BinaryOpConst)$/;"	v
+PUTFIELD	enjarify/jvm/jvmops.py	/^PUTFIELD = 0xB5$/;"	v
+PUTSTATIC	enjarify/jvm/jvmops.py	/^PUTSTATIC = 0xB3$/;"	v
+PYTHONPATH	enjarify.bat	/^set PYTHONPATH=%~dp0$/;"	v
+Pop	enjarify/jvm/ir.py	/^def Pop(): return Other(bytes([POP]))$/;"	f
+Pop2	enjarify/jvm/ir.py	/^def Pop2(): return Other(bytes([POP2]))$/;"	f
+PrimConstant	enjarify/jvm/ir.py	/^class PrimConstant(JvmInstruction):$/;"	c
+RET	enjarify/jvm/jvmops.py	/^RET = 0xA9$/;"	v
+RETURN	enjarify/jvm/jvmops.py	/^RETURN = 0xB1$/;"	v
+Reader	enjarify/byteio.py	/^class Reader:$/;"	c
+RegAccess	enjarify/jvm/ir.py	/^class RegAccess(JvmInstruction):$/;"	c
+Return	enjarify/dalvik.py	/^Return = next(_it)$/;"	v
+SALOAD	enjarify/jvm/jvmops.py	/^SALOAD = 0x35$/;"	v
+SASTORE	enjarify/jvm/jvmops.py	/^SASTORE = 0x56$/;"	v
+SIPUSH	enjarify/jvm/jvmops.py	/^SIPUSH = 0x11$/;"	v
+SIZE	enjarify/treelist.py	/^SIZE = 16$/;"	v
+SPLIT	enjarify/treelist.py	/^SPLIT = 16$/;"	v
+STUB_FILES	enjarify/runtests.py	/^STUB_FILES = dict(getStubs())$/;"	v
+SWAP	enjarify/jvm/jvmops.py	/^SWAP = 0x5F$/;"	v
+SimpleConstantPool	enjarify/jvm/constantpool.py	/^class SimpleConstantPool(ConstantPoolBase):$/;"	c
+SizeOff	enjarify/parsedex.py	/^class SizeOff:$/;"	c
+SplitConstantPool	enjarify/jvm/constantpool.py	/^class SplitConstantPool(ConstantPoolBase):$/;"	c
+StaticGet	enjarify/dalvik.py	/^StaticGet = next(_it)$/;"	v
+StaticPut	enjarify/dalvik.py	/^StaticPut = next(_it)$/;"	v
+StoreLoadPruner	enjarify/jvm/optimization/stack.py	/^class StoreLoadPruner(NoExceptVisitorBase):$/;"	c
+Switch	enjarify/dalvik.py	/^Switch = next(_it)$/;"	v
+Switch	enjarify/jvm/ir.py	/^class Switch(JvmInstruction):$/;"	c
+TABLESWITCH	enjarify/jvm/jvmops.py	/^TABLESWITCH = 0xAA$/;"	v
+THROW_TYPES	enjarify/dalvik.py	/^THROW_TYPES = INVOKE_TYPES + (ConstString, ConstClass, MonitorEnter, MonitorExit, CheckCast, InstanceOf, ArrayLen, NewArray, NewInstance, FilledNewArray, FillArrayData, Throw, ArrayGet, ArrayPut, InstanceGet, InstancePut, StaticGet, StaticPut, BinaryOp, BinaryOpConst)$/;"	v
+Throw	enjarify/dalvik.py	/^Throw = next(_it)$/;"	v
+TreeList	enjarify/treelist.py	/^class TreeList:$/;"	c
+TryItem	enjarify/parsedex.py	/^class TryItem:$/;"	c
+TypeInfo	enjarify/typeinference/typeinference.py	/^class TypeInfo:$/;"	c
+UNARY	enjarify/jvm/mathops.py	/^UNARY = {$/;"	v
+UnaryOp	enjarify/dalvik.py	/^UnaryOp = next(_it)$/;"	v
+UseRange	enjarify/jvm/optimization/stack.py	/^class UseRange:$/;"	c
+VISIT_FUNCS	enjarify/jvm/writeir.py	/^VISIT_FUNCS = {$/;"	v
+WIDE	enjarify/jvm/jvmops.py	/^WIDE = 0xC4$/;"	v
+Writer	enjarify/byteio.py	/^class Writer:$/;"	c
+ZERO	enjarify/jvm/scalartypes.py	/^ZERO = INT | FLOAT | OBJ$/;"	v
+_CopySet	enjarify/jvm/optimization/registers.py	/^class _CopySet:$/;"	c
+_CopySetsMap	enjarify/jvm/optimization/registers.py	/^class _CopySetsMap:$/;"	c
+_FUNC	enjarify/dalvikformats.py	/^_FUNC = {$/;"	v
+_MATH_THROW_OPS	enjarify/typeinference/typeinference.py	/^_MATH_THROW_OPS = [jvmops.IDIV, jvmops.IREM, jvmops.LDIV, jvmops.LREM]$/;"	v
+_TreeListSub	enjarify/treelist.py	/^class _TreeListSub:$/;"	c
+__getitem__	enjarify/treelist.py	/^    def __getitem__(self, i):$/;"	m	class:TreeList	file:
+__getitem__	enjarify/treelist.py	/^    def __getitem__(self, i):$/;"	m	class:_TreeListSub	file:
+__init__	enjarify/byteio.py	/^    def __init__(self):$/;"	m	class:Writer
+__init__	enjarify/byteio.py	/^    def __init__(self, data, pos=0):$/;"	m	class:Reader
+__init__	enjarify/dalvik.py	/^    def __init__(self, type_, pos, newpos, opcode, args):$/;"	m	class:DalvikInstruction
+__init__	enjarify/jvm/constantpool.py	/^    def __init__(self):$/;"	m	class:ConstantPoolBase
+__init__	enjarify/jvm/constantpool.py	/^    def __init__(self):$/;"	m	class:SimpleConstantPool
+__init__	enjarify/jvm/constantpool.py	/^    def __init__(self):$/;"	m	class:SplitConstantPool
+__init__	enjarify/jvm/ir.py	/^    def __init__(self, bytecode=None):$/;"	m	class:JvmInstruction
+__init__	enjarify/jvm/ir.py	/^    def __init__(self, default, jumps):$/;"	m	class:Switch
+__init__	enjarify/jvm/ir.py	/^    def __init__(self, dreg, st, store):$/;"	m	class:RegAccess
+__init__	enjarify/jvm/ir.py	/^    def __init__(self, id=None):$/;"	m	class:Label
+__init__	enjarify/jvm/ir.py	/^    def __init__(self, op, target):$/;"	m	class:If
+__init__	enjarify/jvm/ir.py	/^    def __init__(self, st, val, pool=None):$/;"	m	class:PrimConstant
+__init__	enjarify/jvm/ir.py	/^    def __init__(self, target):$/;"	m	class:Goto
+__init__	enjarify/jvm/ir.py	/^    def __init__(self, target):$/;"	m	class:LazyJumpBase
+__init__	enjarify/jvm/optimization/options.py	/^    def __init__(self, inline_consts=False, prune_store_loads=False,$/;"	m	class:Options
+__init__	enjarify/jvm/optimization/registers.py	/^    def __init__(self):$/;"	m	class:_CopySetsMap
+__init__	enjarify/jvm/optimization/registers.py	/^    def __init__(self, key):$/;"	m	class:_CopySet
+__init__	enjarify/jvm/optimization/stack.py	/^    def __init__(self):$/;"	m	class:ConstInliner
+__init__	enjarify/jvm/optimization/stack.py	/^    def __init__(self):$/;"	m	class:StoreLoadPruner
+__init__	enjarify/jvm/optimization/stack.py	/^    def __init__(self, uses):$/;"	m	class:UseRange
+__init__	enjarify/jvm/writeir.py	/^    def __init__(self, parent, pos):$/;"	m	class:IRBlock
+__init__	enjarify/jvm/writeir.py	/^    def __init__(self, pool, method, types, opts):$/;"	m	class:IRWriter
+__init__	enjarify/parsedex.py	/^    def __init__(self, data):$/;"	m	class:DexFile
+__init__	enjarify/parsedex.py	/^    def __init__(self, dex, base_off, i):$/;"	m	class:DexClass
+__init__	enjarify/parsedex.py	/^    def __init__(self, dex, field_idx):$/;"	m	class:FieldId
+__init__	enjarify/parsedex.py	/^    def __init__(self, dex, field_idx, access):$/;"	m	class:Field
+__init__	enjarify/parsedex.py	/^    def __init__(self, dex, method_idx):$/;"	m	class:MethodId
+__init__	enjarify/parsedex.py	/^    def __init__(self, dex, method_idx, access, code_off):$/;"	m	class:Method
+__init__	enjarify/parsedex.py	/^    def __init__(self, dex, offset):$/;"	m	class:ClassData
+__init__	enjarify/parsedex.py	/^    def __init__(self, dex, offset):$/;"	m	class:CodeItem
+__init__	enjarify/parsedex.py	/^    def __init__(self, stream):$/;"	m	class:SizeOff
+__init__	enjarify/parsedex.py	/^    def __init__(self, stream):$/;"	m	class:TryItem
+__init__	enjarify/treelist.py	/^    def __init__(self, default, direct=None, children=None):$/;"	m	class:_TreeListSub
+__init__	enjarify/treelist.py	/^    def __init__(self, default, func, data=None):$/;"	m	class:TreeList
+__init__	enjarify/typeinference/typeinference.py	/^    def __init__(self, prims, arrs, tainted):$/;"	m	class:TypeInfo
+__setitem__	enjarify/treelist.py	/^    def __setitem__(self, i, val):$/;"	m	class:TreeList	file:
+_arrLoadOps	enjarify/jvm/writeir.py	/^_arrLoadOps = {t.encode(): v for t, v in zip('IJFD BCS', range(IALOAD, SALOAD+1))}$/;"	v
+_arrStoreOps	enjarify/jvm/writeir.py	/^_arrStoreOps = {t.encode(): v for t, v in zip('IJFD BCS', range(IASTORE, SASTORE+1))}$/;"	v
+_calcDouble	enjarify/jvm/constants/calc.py	/^def _calcDouble(x):$/;"	f
+_calcFloat	enjarify/jvm/constants/calc.py	/^def _calcFloat(x):$/;"	f
+_calcInt	enjarify/jvm/constants/calc.py	/^def _calcInt(x):$/;"	f
+_calcLong	enjarify/jvm/constants/calc.py	/^def _calcLong(x):$/;"	f
+_calcMinimumPositions	enjarify/jvm/optimization/jumps.py	/^def _calcMinimumPositions(instrs):$/;"	f
+_copy	enjarify/typeinference/typeinference.py	/^    def _copy(self): return TypeInfo(self.prims.copy(), self.arrs.copy(), self.tainted.copy())$/;"	m	class:TypeInfo
+_decode	enjarify/mutf8.py	/^def _decode(b):$/;"	f
+_descToScalar	enjarify/jvm/scalartypes.py	/^_descToScalar = dict(zip(map(ord, 'ZBCSIFJDL['), [INT, INT, INT, INT, INT, FLOAT, LONG, DOUBLE, OBJ, OBJ]))$/;"	v
+_fixPairs	enjarify/mutf8.py	/^def _fixPairs(codes):$/;"	f
+_from_pool	enjarify/jvm/ir.py	/^    def _from_pool(self, pool):$/;"	m	class:PrimConstant
+_get	enjarify/jvm/constantpool.py	/^    def _get(self, tag, args):$/;"	m	class:ConstantPoolBase
+_get	enjarify/jvm/optimization/registers.py	/^    def _get(self, key): return self.lookup.setdefault(key, _CopySet(key))$/;"	m	class:_CopySetsMap
+_get	enjarify/typeinference/typeinference.py	/^    def _get(self, reg): return self.prims[reg], self.arrs[reg], self.tainted[reg]$/;"	m	class:TypeInfo
+_getInd	enjarify/jvm/constantpool.py	/^    def _getInd(self, low, width):$/;"	m	class:SimpleConstantPool
+_getInd	enjarify/jvm/constantpool.py	/^    def _getInd(self, low, width):$/;"	m	class:SplitConstantPool
+_ifOpposite	enjarify/jvm/ir.py	/^_ifOpposite = {}$/;"	v
+_ilfdaOrd	enjarify/jvm/ir.py	/^_ilfdaOrd = [scalars.INT, scalars.LONG, scalars.FLOAT, scalars.DOUBLE, scalars.OBJ].index$/;"	v
+_ilfdaOrd	enjarify/jvm/writeir.py	/^_ilfdaOrd = [scalars.INT, scalars.LONG, scalars.FLOAT, scalars.DOUBLE, scalars.OBJ].index$/;"	v
+_isRemoveable	enjarify/jvm/optimization/registers.py	/^def _isRemoveable(instr):$/;"	f
+_it	enjarify/dalvik.py	/^_it = iter(range(999))$/;"	v
+_leb128	enjarify/byteio.py	/^    def _leb128(self, signed=False):$/;"	m	class:Reader
+_newArrayCodes	enjarify/jvm/writeir.py	/^_newArrayCodes = {('['+t).encode(): v for t, v in zip('ZCFDBSIJ', range(4, 12))}$/;"	v
+_other	enjarify/jvm/writeir.py	/^    def _other(self, bytecode):$/;"	m	class:IRBlock
+_pack	enjarify/byteio.py	/^    def _pack(self, fmt, arg):$/;"	m	class:Writer
+_parse	enjarify/parsedex.py	/^    def _parse(self, dex, stream):$/;"	m	class:ClassData
+_return_or_throw_bytecodes	enjarify/jvm/ir.py	/^_return_or_throw_bytecodes = {bytes([op]) for op in range(IRETURN, RETURN+1) }$/;"	v
+_set	enjarify/typeinference/typeinference.py	/^    def _set(self, reg, st, at, taint=False):$/;"	m	class:TypeInfo
+_triple	enjarify/jvm/constantpool.py	/^    def _triple(self, tag, trip):$/;"	m	class:ConstantPoolBase
+_unpack	enjarify/byteio.py	/^    def _unpack(self, fmt):$/;"	m	class:Reader
+_width	enjarify/jvm/constantpool.py	/^def _width(tag):$/;"	f
+_writeEntry	enjarify/jvm/constantpool.py	/^    def _writeEntry(self, stream, item):$/;"	m	class:ConstantPoolBase
+a	tests/stubs/src/Main.java	/^	private android.util.Log a;$/;"	f	class:Main	file:
+a	tests/stubs/src/android/app/Activity.java	/^	private android.util.Log a;$/;"	f	class:Activity	file:
+add	enjarify/jvm/constants/genlookup.py	/^def add(d, k, v):$/;"	f
+add	enjarify/jvm/optimization/registers.py	/^    def add(self, key):$/;"	m	class:_CopySet
+add	enjarify/jvm/optimization/stack.py	/^    def add(self, i):$/;"	m	class:UseRange
+add	enjarify/jvm/writeir.py	/^    def add(self, jvm_instr):$/;"	m	class:IRBlock
+addExceptionRedirect	enjarify/jvm/writeir.py	/^    def addExceptionRedirect(self, target):$/;"	m	class:IRWriter
+allocateRequiredConstants	enjarify/jvm/optimization/consts.py	/^def allocateRequiredConstants(pool, long_irs):$/;"	f
+android.app	tests/stubs/src/android/app/Activity.java	/^package android.app;$/;"	p
+android.os	tests/stubs/src/android/os/Bundle.java	/^package android.os;$/;"	p
+android.util	tests/stubs/src/android/util/Log.java	/^package android.util;$/;"	p
+assign	enjarify/typeinference/typeinference.py	/^    def assign(self, reg, st, at=arrays.INVALID, taint=False):$/;"	m	class:TypeInfo
+assign	tests/test6/patch.py	/^def assign(s, i, j, new):$/;"	f
+assign2	enjarify/typeinference/typeinference.py	/^    def assign2(self, reg, st):$/;"	m	class:TypeInfo
+assignFromDesc	enjarify/typeinference/typeinference.py	/^    def assignFromDesc(self, reg, desc):$/;"	m	class:TypeInfo
+b	tests/stubs/src/Main.java	/^	private android.os.Bundle b;$/;"	f	class:Main	file:
+binary	enjarify/jvm/genmathops.py	/^    binary = 'iadd isub imul idiv irem iand ior ixor ishl ishr iushr ladd lsub lmul ldiv lrem land lor lxor lshl lshr lushr fadd fsub fmul fdiv frem dadd dsub dmul ddiv drem'$/;"	v
+binary	enjarify/jvm/genmathops.py	/^    binary = binary + ' ' + binary$/;"	v
+binlit	enjarify/jvm/genmathops.py	/^    binlit = 'iadd isub imul idiv irem iand ior ixor '$/;"	v
+binlit	enjarify/jvm/genmathops.py	/^    binlit = binlit + binlit + 'ishl ishr iushr'$/;"	v
+c	tests/stubs/src/Main.java	/^	private android.app.Activity c;$/;"	f	class:Main	file:
+calc	enjarify/jvm/constants/calc.py	/^def calc(st, val):$/;"	f
+calcBytecode	enjarify/jvm/ir.py	/^    def calcBytecode(self, local):$/;"	m	class:RegAccess
+calcBytecode	enjarify/jvm/ir.py	/^    def calcBytecode(self, posd, labels):$/;"	m	class:Goto
+calcBytecode	enjarify/jvm/ir.py	/^    def calcBytecode(self, posd, labels):$/;"	m	class:If
+calcBytecode	enjarify/jvm/ir.py	/^    def calcBytecode(self, posd, labels):$/;"	m	class:Switch
+calcDouble	enjarify/jvm/constants/calc.py	/^def calcDouble(x): return _calcDouble(normalizeDouble(x))$/;"	f
+calcFloat	enjarify/jvm/constants/calc.py	/^def calcFloat(x): return _calcFloat(normalizeFloat(x))$/;"	f
+calcInitialArgs	enjarify/jvm/writeir.py	/^    def calcInitialArgs(self, nregs, scalar_ptypes):$/;"	m	class:IRWriter
+calcInt	enjarify/jvm/constants/calc.py	/^def calcInt(x): return _calcInt(s32(x))$/;"	f
+calcLong	enjarify/jvm/constants/calc.py	/^def calcLong(x): return _calcLong(s64(x))$/;"	f
+calcUpperBound	enjarify/jvm/writeir.py	/^    def calcUpperBound(self):$/;"	m	class:IRWriter
+cast	enjarify/jvm/writeir.py	/^    def cast(self, dex, reg, index):$/;"	m	class:IRBlock
+classFileAfterPool	enjarify/jvm/writeclass.py	/^def classFileAfterPool(cls, opts):$/;"	f
+class_	enjarify/jvm/constantpool.py	/^    def class_(self, s): return self._get(CONSTANT_Class, self.utf8(s))$/;"	m	class:ConstantPoolBase
+clobber	enjarify/jvm/optimization/registers.py	/^    def clobber(self, key):$/;"	m	class:_CopySetsMap
+clsType	enjarify/parsedex.py	/^    def clsType(self, i):$/;"	m	class:DexFile
+code	enjarify/jvm/genmathops.py	/^        code = code.replace('not','xor')$/;"	v
+const	enjarify/jvm/writeir.py	/^    def const(self, val, stype):$/;"	m	class:IRBlock
+const_null	enjarify/jvm/writeir.py	/^    def const_null(self):$/;"	m	class:IRBlock
+copy	enjarify/jvm/optimization/registers.py	/^    def copy(self):$/;"	m	class:_CopySet
+copy	enjarify/jvm/optimization/registers.py	/^    def copy(self):$/;"	m	class:_CopySetsMap
+copy	enjarify/treelist.py	/^    def copy(self):$/;"	m	class:TreeList
+copyPropagation	enjarify/jvm/optimization/registers.py	/^def copyPropagation(irdata):$/;"	f
+cpool_key	enjarify/jvm/ir.py	/^    def cpool_key(self):$/;"	m	class:PrimConstant
+createBlock	enjarify/jvm/writeir.py	/^    def createBlock(self, instr):$/;"	m	class:IRWriter
+createBytecode	enjarify/jvm/optimization/jumps.py	/^def createBytecode(irdata):$/;"	f
+data	tests/test6/patch.py	/^		data = z.read('classes.dex')$/;"	v
+data2	tests/test6/patch.py	/^		data2 = fixChecksum(patch(data))$/;"	v
+decode	enjarify/dalvikformats.py	/^def decode(shorts, pos, opcode):$/;"	f
+decode	enjarify/mutf8.py	/^def decode(b):$/;"	f
+destt	enjarify/jvm/genmathops.py	/^            destt = stypes[code[2]]$/;"	v
+dir	enjarify/hashtests.py	/^    dir = os.path.join('tests', name)$/;"	v
+doInference	enjarify/typeinference/typeinference.py	/^def doInference(dex, method, code, bytecode, instr_d):$/;"	f
+doMerge	enjarify/typeinference/typeinference.py	/^    def doMerge(pos, new):$/;"	f	function:doInference
+double	enjarify/jvm/constantpool.py	/^    def double(self, x): return self._get(CONSTANT_Double, x)$/;"	m	class:ConstantPoolBase
+dup2ize	enjarify/jvm/optimization/stack.py	/^def dup2ize(irdata):$/;"	f
+e	tests/stubs/src/android/util/Log.java	/^	static public int e(String tag, String msg) {$/;"	m	class:Log
+eletPair	enjarify/jvm/arraytypes.py	/^def eletPair(t):$/;"	f
+encodedValue	enjarify/parsedex.py	/^def encodedValue(dex, stream):$/;"	f
+end	enjarify/jvm/optimization/stack.py	/^    def end(self): return self.uses[-1]$/;"	m	class:UseRange
+executeTest	enjarify/runtests.py	/^def executeTest(name, opts):$/;"	f
+fallsthrough	enjarify/jvm/ir.py	/^    def fallsthrough(self): return False$/;"	m	class:Goto
+fallsthrough	enjarify/jvm/ir.py	/^    def fallsthrough(self): return False$/;"	m	class:Switch
+fallsthrough	enjarify/jvm/ir.py	/^    def fallsthrough(self): return True$/;"	m	class:JvmInstruction
+fallsthrough	enjarify/jvm/ir.py	/^    def fallsthrough(self): return self.bytecode not in _return_or_throw_bytecodes$/;"	m	class:Other
+field	enjarify/jvm/constantpool.py	/^    def field(self, trip): return self._triple(CONSTANT_Fieldref, trip)$/;"	m	class:ConstantPoolBase
+field_id	enjarify/parsedex.py	/^    def field_id(self, i): return FieldId(self, i)$/;"	m	class:DexFile
+fillarraydata	enjarify/jvm/writeir.py	/^    def fillarraydata(self, op, stype, vals):$/;"	m	class:IRBlock
+fillarraysub	enjarify/jvm/writeir.py	/^    def fillarraysub(self, op, cbs, pop=True):$/;"	m	class:IRBlock
+finish	enjarify/parsedex.py	/^    def finish(self, dex, list_off):$/;"	m	class:TryItem
+finishCodeAttrs	enjarify/jvm/writebytecode.py	/^def finishCodeAttrs(pool, code_irs, opts):$/;"	f
+fixChecksum	tests/test6/patch.py	/^def fixChecksum(data):$/;"	f
+fix_with_pool	enjarify/jvm/ir.py	/^    def fix_with_pool(self, pool):$/;"	m	class:PrimConstant
+flatten	enjarify/jvm/writeir.py	/^    def flatten(self):$/;"	m	class:IRWriter
+float	enjarify/jvm/constantpool.py	/^    def float(self, x): return self._get(CONSTANT_Float, x)$/;"	m	class:ConstantPoolBase
+fromDesc	enjarify/jvm/arraytypes.py	/^def fromDesc(desc):$/;"	f
+fromDesc	enjarify/jvm/scalartypes.py	/^def fromDesc(desc):$/;"	f
+fromParams	enjarify/typeinference/typeinference.py	/^def fromParams(method, num_regs):$/;"	f
+fullhash	enjarify/hashtests.py	/^            fullhash = hashlib.sha256(fullhash + cls).digest()$/;"	v
+fullhash	enjarify/hashtests.py	/^fullhash = b''$/;"	v
+genDups	enjarify/jvm/optimization/stack.py	/^def genDups(needed, needed_after):$/;"	f
+genUnicode	tests/test6/patch.py	/^def genUnicode(gen, prefix, suffix, size):$/;"	f
+generateExceptLabels	enjarify/jvm/writeir.py	/^    def generateExceptLabels(self):$/;"	m	class:IRBlock
+getCodeIR	enjarify/jvm/writebytecode.py	/^def getCodeIR(pool, method, opts):$/;"	f
+getSpacedParamTypes	enjarify/parsedex.py	/^    def getSpacedParamTypes(self, isstatic):$/;"	m	class:MethodId
+getStubs	enjarify/runtests.py	/^def getStubs():$/;"	f
+goto	enjarify/jvm/writeir.py	/^    def goto(self, target):$/;"	m	class:IRBlock
+guess	enjarify.sh	/^function guess {$/;"	f
+i2d	enjarify/jvm/constants/genlookup.py	/^def i2d(x):$/;"	f
+i2f	enjarify/jvm/constants/genlookup.py	/^def i2f(x):$/;"	f
+if_	enjarify/jvm/writeir.py	/^    def if_(self, op, target):$/;"	m	class:IRBlock
+imethod	enjarify/jvm/constantpool.py	/^    def imethod(self, trip): return self._triple(CONSTANT_InterfaceMethodref, trip)$/;"	m	class:ConstantPoolBase
+inlineConsts	enjarify/jvm/optimization/stack.py	/^def inlineConsts(irdata):$/;"	f
+insertDirectly	enjarify/jvm/constantpool.py	/^    def insertDirectly(self, pair, low):$/;"	m	class:ConstantPoolBase
+int	enjarify/jvm/constantpool.py	/^    def int(self, x): return self._get(CONSTANT_Integer, x)$/;"	m	class:ConstantPoolBase
+interesting	tests/test6/patch.py	/^interesting = [0xA1, 0x343, 0xFDD0, 0xFEFF, 0x1FFFE, 0x8FFFE, 0x10FFFF]$/;"	v
+isSame	enjarify/typeinference/typeinference.py	/^    def isSame(self, other):$/;"	m	class:TypeInfo
+iswide	enjarify/jvm/scalartypes.py	/^def iswide(st):$/;"	f
+keysToRanges	enjarify/util.py	/^def keysToRanges(d, limit):$/;"	f
+ldc	enjarify/jvm/writeir.py	/^    def ldc(self, index):$/;"	m	class:IRBlock
+load	enjarify/jvm/optimization/registers.py	/^    def load(self, key):$/;"	m	class:_CopySetsMap
+load	enjarify/jvm/writeir.py	/^    def load(self, reg, stype, desc=None, clsname=None):$/;"	m	class:IRBlock
+loadAsArray	enjarify/jvm/writeir.py	/^    def loadAsArray(self, reg):$/;"	m	class:IRBlock
+long	enjarify/jvm/constantpool.py	/^    def long(self, x): return self._get(CONSTANT_Long, x)$/;"	m	class:ConstantPoolBase
+lookupOnly	enjarify/jvm/constants/calc.py	/^def lookupOnly(st, val):$/;"	f
+lowspace	enjarify/jvm/constantpool.py	/^    def lowspace(self): return 256 - len(self.vals)$/;"	m	class:SimpleConstantPool
+lowspace	enjarify/jvm/constantpool.py	/^    def lowspace(self): return 256 - self.bot$/;"	m	class:SplitConstantPool
+main	enjarify/main.py	/^def main():$/;"	f
+main	tests/stubs/src/Main.java	/^	public static void main(String[] args) {$/;"	m	class:Main
+makeRange	enjarify/jvm/optimization/stack.py	/^def makeRange(instr):$/;"	f
+merge	enjarify/jvm/arraytypes.py	/^def merge(t1, t2):$/;"	f
+merge	enjarify/treelist.py	/^    def merge(left, right, func):$/;"	m	class:_TreeListSub
+merge	enjarify/treelist.py	/^    def merge(self, other):$/;"	m	class:TreeList
+merge	enjarify/typeinference/typeinference.py	/^def merge(old, new):$/;"	f
+method	enjarify/jvm/constantpool.py	/^    def method(self, trip): return self._triple(CONSTANT_Methodref, trip)$/;"	m	class:ConstantPoolBase
+method_id	enjarify/parsedex.py	/^    def method_id(self, i): return MethodId(self, i)$/;"	m	class:DexFile
+move	enjarify/jvm/optimization/registers.py	/^    def move(self, dest, src):$/;"	m	class:_CopySetsMap
+move	enjarify/typeinference/typeinference.py	/^    def move(self, src, dest, wide):$/;"	m	class:TypeInfo
+multiGen	tests/test6/patch.py	/^def multiGen(rand):$/;"	f
+name	enjarify/hashtests.py	/^    name = 'test{}'.format(i)$/;"	v
+narrow	enjarify/jvm/arraytypes.py	/^def narrow(t1, t2):$/;"	f
+nat	enjarify/jvm/constantpool.py	/^    def nat(self, name, desc):$/;"	m	class:ConstantPoolBase
+newarray	enjarify/jvm/writeir.py	/^    def newarray(self, desc):$/;"	m	class:IRBlock
+normalize	enjarify/jvm/constants/calc.py	/^def normalize(st, val):$/;"	f
+normalizeDouble	enjarify/jvm/constants/calc.py	/^def normalizeDouble(x):$/;"	f
+normalizeFloat	enjarify/jvm/constants/calc.py	/^def normalizeFloat(x):$/;"	f
+onCreate	tests/stubs/src/android/app/Activity.java	/^	public void onCreate(android.os.Bundle b) {}$/;"	m	class:Activity
+optimizeJumps	enjarify/jvm/optimization/jumps.py	/^def optimizeJumps(irdata):$/;"	f
+opts	enjarify/hashtests.py	/^        opts = options.Options(*[bool(bits & (1 << b)) for b in range(8)])$/;"	v
+ordsets	tests/test6/patch.py	/^ordsets = [$/;"	v
+p00op	enjarify/dalvikformats.py	/^def p00op(w): return []$/;"	f
+p00opAAAA	enjarify/dalvikformats.py	/^def p00opAAAA(w, w2): return [w2]$/;"	f
+p00opAAAAAAAA	enjarify/dalvikformats.py	/^def p00opAAAAAAAA(w, w2, w3): return [w2 ^ (w3 << 16)]$/;"	f
+p00opAAAABBBB	enjarify/dalvikformats.py	/^def p00opAAAABBBB(w, w2, w3): return [w2, w3]$/;"	f
+pAAop	enjarify/dalvikformats.py	/^def pAAop(w): return [w >> 8]$/;"	f
+pAAopBBBB	enjarify/dalvikformats.py	/^def pAAopBBBB(w, w2): return [w >> 8, w2]$/;"	f
+pAAopBBBBBBBB	enjarify/dalvikformats.py	/^def pAAopBBBBBBBB(w, w2, w3): return [w >> 8, w2 ^ (w3 << 16)]$/;"	f
+pAAopBBBBBBBBBBBBBBBB	enjarify/dalvikformats.py	/^def pAAopBBBBBBBBBBBBBBBB(w, w2, w3, w4, w5):$/;"	f
+pAAopBBBBCCCC	enjarify/dalvikformats.py	/^def pAAopBBBBCCCC(w, w2, w3):$/;"	f
+pAAopCCBB	enjarify/dalvikformats.py	/^def pAAopCCBB(w, w2): return [w >> 8, w2 & 0xFF, w2 >> 8]$/;"	f
+pAGopBBBBFEDC	enjarify/dalvikformats.py	/^def pAGopBBBBFEDC(w, w2, w3):$/;"	f
+pBAop	enjarify/dalvikformats.py	/^def pBAop(w): return [(w >> 8) & 0xF, w >> 12]$/;"	f
+pBAopCCCC	enjarify/dalvikformats.py	/^def pBAopCCCC(w, w2): return [(w >> 8) & 0xF, w >> 12, w2]$/;"	f
+paramTypes	enjarify/jvm/scalartypes.py	/^def paramTypes(method_id, static):$/;"	f
+parseBytecode	enjarify/dalvik.py	/^def parseBytecode(dex, insns_start_pos, shorts, catch_addrs):$/;"	f
+parseData	enjarify/parsedex.py	/^    def parseData(self):$/;"	m	class:DexClass
+parseInstruction	enjarify/dalvik.py	/^def parseInstruction(dex, insns_start_pos, shorts, pos):$/;"	f
+patch	tests/test6/patch.py	/^def patch(data):$/;"	f
+pruneHandlers	enjarify/typeinference/typeinference.py	/^def pruneHandlers(all_handlers):$/;"	f
+pruneStoreLoads	enjarify/jvm/optimization/stack.py	/^def pruneStoreLoads(irdata):$/;"	f
+raw	enjarify/jvm/ir.py	/^    def raw(local, stype, store):$/;"	m	class:RegAccess
+rawdex	enjarify/hashtests.py	/^    rawdex = read(os.path.join(dir, 'classes.dex'), 'rb')$/;"	v
+read	enjarify/byteio.py	/^    def read(self, size):$/;"	m	class:Reader
+read	enjarify/main.py	/^def read(fname, mode='rb'):$/;"	f
+readCStr	enjarify/byteio.py	/^    def readCStr(self):$/;"	m	class:Reader
+remove	enjarify/jvm/optimization/registers.py	/^    def remove(self, key):$/;"	m	class:_CopySet
+removeUnusedRegisters	enjarify/jvm/optimization/registers.py	/^def removeUnusedRegisters(irdata):$/;"	f
+replaceInstrs	enjarify/jvm/writeir.py	/^    def replaceInstrs(self, replace):$/;"	m	class:IRWriter
+reset	enjarify/jvm/optimization/stack.py	/^    def reset(self):$/;"	m	class:ConstInliner
+reset	enjarify/jvm/optimization/stack.py	/^    def reset(self):$/;"	m	class:StoreLoadPruner
+return_	enjarify/jvm/writeir.py	/^    def return_(self, stype=None):$/;"	m	class:IRBlock
+s16	enjarify/util.py	/^def s16(val):$/;"	f
+s32	enjarify/util.py	/^def s32(val):$/;"	f
+s64	enjarify/util.py	/^def s64(val):$/;"	f
+set	enjarify/treelist.py	/^    def set(self, i, val):$/;"	m	class:_TreeListSub
+sign	enjarify/dalvikformats.py	/^def sign(x, bits):$/;"	f
+signExtend	enjarify/util.py	/^def signExtend(val, size):$/;"	f
+simpleAllocateRegisters	enjarify/jvm/optimization/registers.py	/^def simpleAllocateRegisters(irdata):$/;"	f
+simpleGen	tests/test6/patch.py	/^def simpleGen(rand, choices):$/;"	f
+sleb128	enjarify/byteio.py	/^    def sleb128(self): return self._leb128(signed=True)$/;"	m	class:Reader
+sortAllocateRegisters	enjarify/jvm/optimization/registers.py	/^def sortAllocateRegisters(irdata):$/;"	f
+sortkey	enjarify/jvm/optimization/stack.py	/^    def sortkey(self): return len(self.uses), self.uses[0]$/;"	m	class:UseRange
+space	enjarify/jvm/constantpool.py	/^    def space(self): return 65535 - len(self.vals)$/;"	m	class:SimpleConstantPool
+space	enjarify/jvm/constantpool.py	/^    def space(self): return self.top - self.bot$/;"	m	class:SplitConstantPool
+srct	enjarify/jvm/genmathops.py	/^            srct = stypes[code[0]]$/;"	v
+st	enjarify/jvm/genmathops.py	/^        st = stypes[code[0]]$/;"	v
+st2	enjarify/jvm/genmathops.py	/^        st2 = 'INT' if 'sh' in code else st$/;"	v
+start	enjarify/jvm/optimization/stack.py	/^    def start(self): return self.uses[0]$/;"	m	class:UseRange
+store	enjarify/jvm/writeir.py	/^    def store(self, reg, stype):$/;"	m	class:IRBlock
+stream	enjarify/parsedex.py	/^    def stream(self, offset): return Reader(self.raw, offset)$/;"	m	class:DexFile
+string	enjarify/jvm/constantpool.py	/^    def string(self, s): return self._get(CONSTANT_String, self.utf8(s))$/;"	m	class:ConstantPoolBase
+string	enjarify/parsedex.py	/^    def string(self, i):$/;"	m	class:DexFile
+stypes	enjarify/jvm/genmathops.py	/^    stypes = dict(zip('ifldbcs', 'INT FLOAT LONG DOUBLE INT INT INT'.split()))$/;"	v
+subtract	enjarify/jvm/optimization/stack.py	/^    def subtract(self, other):$/;"	m	class:UseRange
+switch	enjarify/jvm/writeir.py	/^    def switch(self, default, jumps):$/;"	m	class:IRBlock
+targets	enjarify/jvm/ir.py	/^    def targets(self): return []$/;"	m	class:JvmInstruction
+targets	enjarify/jvm/ir.py	/^    def targets(self): return [self.target]$/;"	m	class:LazyJumpBase
+targets	enjarify/jvm/ir.py	/^    def targets(self): return sorted(set(self.jumps.values())) + [self.default]$/;"	m	class:Switch
+toBytes	enjarify/byteio.py	/^    def toBytes(self):$/;"	m	class:Writer
+toClassFile	enjarify/jvm/writeclass.py	/^def toClassFile(cls, opts):$/;"	f
+toU16	tests/test6/patch.py	/^def toU16(codepoint):$/;"	f
+translate	enjarify/main.py	/^def translate(data, opts, classes=None, errors=None, allowErrors=True):$/;"	f
+triple	enjarify/parsedex.py	/^    def triple(self): return self.cname, self.name, self.desc$/;"	m	class:MFIdMixin
+tryGet	enjarify/jvm/constantpool.py	/^    def tryGet(self, pair):$/;"	m	class:ConstantPoolBase
+type	enjarify/parsedex.py	/^    def type(self, i):$/;"	m	class:DexFile
+typeList	enjarify/parsedex.py	/^def typeList(dex, off, parseClsDesc=False):$/;"	f
+u16	enjarify/byteio.py	/^    def u16(self): return self._unpack('<H')$/;"	m	class:Reader
+u16	enjarify/byteio.py	/^    def u16(self, x): return self._pack('>H', x)$/;"	m	class:Writer
+u32	enjarify/byteio.py	/^    def u32(self): return self._unpack('<I')$/;"	m	class:Reader
+u32	enjarify/byteio.py	/^    def u32(self, x): return self._pack('>I', x)$/;"	m	class:Writer
+u32	enjarify/jvm/constants/genlookup.py	/^def u32(x): return x % (1<<32)$/;"	f
+u64	enjarify/byteio.py	/^    def u64(self): return self._unpack('<Q')$/;"	m	class:Reader
+u64	enjarify/byteio.py	/^    def u64(self, x): return self._pack('>Q', x)$/;"	m	class:Writer
+u64	enjarify/jvm/constants/genlookup.py	/^def u64(x): return x % (1<<64)$/;"	f
+u8	enjarify/byteio.py	/^    def u8(self): return self.read(1)[0]$/;"	m	class:Reader
+u8	enjarify/byteio.py	/^    def u8(self, x): return self.write(bytes([x]))$/;"	m	class:Writer
+u8	enjarify/jvm/writeir.py	/^    def u8(self, op): self._other(struct.pack('>B', op))$/;"	m	class:IRBlock
+u8u16	enjarify/jvm/writeir.py	/^    def u8u16(self, op, x): self._other(struct.pack('>BH', op, x))$/;"	m	class:IRBlock
+u8u16u8u8	enjarify/jvm/writeir.py	/^    def u8u16u8u8(self, op, x, y, z): self._other(struct.pack('>BHBB', op, x, y, z))$/;"	m	class:IRBlock
+u8u8	enjarify/jvm/writeir.py	/^    def u8u8(self, op, x): self._other(struct.pack('>BB', op, x))$/;"	m	class:IRBlock
+u8u8u16	enjarify/jvm/writeir.py	/^    def u8u8u16(self, op, op2, x): self._other(struct.pack('>BBH', op, op2, x))$/;"	m	class:IRBlock
+uleb128	enjarify/byteio.py	/^    def uleb128(self): return self._leb128()$/;"	m	class:Reader
+uleb128	tests/test6/patch.py	/^def uleb128(x):$/;"	f
+unary	enjarify/jvm/genmathops.py	/^    unary = 'ineg inot lneg lnot fneg dneg i2l i2f i2d l2i l2f l2d f2i f2l f2d d2i d2l d2f i2b i2c i2s'$/;"	v
+utf8	enjarify/jvm/constantpool.py	/^    def utf8(self, s):$/;"	m	class:ConstantPoolBase
+visit	enjarify/jvm/optimization/stack.py	/^    def visit(self, instr):$/;"	m	class:ConstInliner
+visit	enjarify/jvm/optimization/stack.py	/^    def visit(self, instr):$/;"	m	class:StoreLoadPruner
+visitArrayGet	enjarify/jvm/writeir.py	/^def visitArrayGet(method, dex, instr_d, type_data, block, instr):$/;"	f
+visitArrayGet	enjarify/typeinference/typeinference.py	/^def visitArrayGet(dex, instr, cur):$/;"	f
+visitArrayLen	enjarify/jvm/writeir.py	/^def visitArrayLen(method, dex, instr_d, type_data, block, instr):$/;"	f
+visitArrayPut	enjarify/jvm/writeir.py	/^def visitArrayPut(method, dex, instr_d, type_data, block, instr):$/;"	f
+visitBinaryOp	enjarify/jvm/writeir.py	/^def visitBinaryOp(method, dex, instr_d, type_data, block, instr):$/;"	f
+visitBinaryOp	enjarify/typeinference/typeinference.py	/^def visitBinaryOp(dex, instr, cur):$/;"	f
+visitBinaryOpConst	enjarify/jvm/writeir.py	/^def visitBinaryOpConst(method, dex, instr_d, type_data, block, instr):$/;"	f
+visitCheckCast	enjarify/jvm/writeir.py	/^def visitCheckCast(method, dex, instr_d, type_data, block, instr):$/;"	f
+visitCheckCast	enjarify/typeinference/typeinference.py	/^def visitCheckCast(dex, instr, cur):$/;"	f
+visitCmp	enjarify/jvm/writeir.py	/^def visitCmp(method, dex, instr_d, type_data, block, instr):$/;"	f
+visitConst32	enjarify/jvm/writeir.py	/^def visitConst32(method, dex, instr_d, type_data, block, instr):$/;"	f
+visitConst32	enjarify/typeinference/typeinference.py	/^def visitConst32(dex, instr, cur):$/;"	f
+visitConst64	enjarify/jvm/writeir.py	/^def visitConst64(method, dex, instr_d, type_data, block, instr):$/;"	f
+visitConst64	enjarify/typeinference/typeinference.py	/^def visitConst64(dex, instr, cur):$/;"	f
+visitConstClass	enjarify/jvm/writeir.py	/^def visitConstClass(method, dex, instr_d, type_data, block, instr):$/;"	f
+visitConstString	enjarify/jvm/writeir.py	/^def visitConstString(method, dex, instr_d, type_data, block, instr):$/;"	f
+visitExceptionRange	enjarify/jvm/optimization/stack.py	/^    def visitExceptionRange(self): self.reset()$/;"	m	class:NoExceptVisitorBase
+visitFillArrayData	enjarify/jvm/writeir.py	/^def visitFillArrayData(method, dex, instr_d, type_data, block, instr):$/;"	f
+visitFilledNewArray	enjarify/jvm/writeir.py	/^def visitFilledNewArray(method, dex, instr_d, type_data, block, instr):$/;"	f
+visitGoto	enjarify/jvm/writeir.py	/^def visitGoto(method, dex, instr_d, type_data, block, instr):$/;"	f
+visitIf	enjarify/jvm/writeir.py	/^def visitIf(method, dex, instr_d, type_data, block, instr):$/;"	f
+visitIfZ	enjarify/jvm/writeir.py	/^def visitIfZ(method, dex, instr_d, type_data, block, instr):$/;"	f
+visitInstanceGet	enjarify/jvm/writeir.py	/^def visitInstanceGet(method, dex, instr_d, type_data, block, instr):$/;"	f
+visitInstanceGet	enjarify/typeinference/typeinference.py	/^def visitInstanceGet(dex, instr, cur):$/;"	f
+visitInstanceOf	enjarify/jvm/writeir.py	/^def visitInstanceOf(method, dex, instr_d, type_data, block, instr):$/;"	f
+visitInstancePut	enjarify/jvm/writeir.py	/^def visitInstancePut(method, dex, instr_d, type_data, block, instr):$/;"	f
+visitInvoke	enjarify/jvm/writeir.py	/^def visitInvoke(method, dex, instr_d, type_data, block, instr):$/;"	f
+visitJumpTargetOrBranch	enjarify/jvm/optimization/stack.py	/^    def visitJumpTargetOrBranch(self, instr): self.reset()$/;"	m	class:NoExceptVisitorBase
+visitLinearCode	enjarify/jvm/optimization/stack.py	/^def visitLinearCode(irdata, visitor):$/;"	f
+visitMonitorEnter	enjarify/jvm/writeir.py	/^def visitMonitorEnter(method, dex, instr_d, type_data, block, instr):$/;"	f
+visitMonitorExit	enjarify/jvm/writeir.py	/^def visitMonitorExit(method, dex, instr_d, type_data, block, instr):$/;"	f
+visitMove	enjarify/jvm/writeir.py	/^def visitMove(method, dex, instr_d, type_data, block, instr):$/;"	f
+visitMove	enjarify/typeinference/typeinference.py	/^def visitMove(dex, instr, cur):$/;"	f
+visitMoveResult	enjarify/jvm/writeir.py	/^def visitMoveResult(method, dex, instr_d, type_data, block, instr):$/;"	f
+visitMoveResult	enjarify/typeinference/typeinference.py	/^def visitMoveResult(dex, instr, cur):$/;"	f
+visitMoveWide	enjarify/jvm/writeir.py	/^def visitMoveWide(method, dex, instr_d, type_data, block, instr):$/;"	f
+visitMoveWide	enjarify/typeinference/typeinference.py	/^def visitMoveWide(dex, instr, cur):$/;"	f
+visitNewArray	enjarify/jvm/writeir.py	/^def visitNewArray(method, dex, instr_d, type_data, block, instr):$/;"	f
+visitNewArray	enjarify/typeinference/typeinference.py	/^def visitNewArray(dex, instr, cur):$/;"	f
+visitNewInstance	enjarify/jvm/writeir.py	/^def visitNewInstance(method, dex, instr_d, type_data, block, instr):$/;"	f
+visitNop	enjarify/jvm/writeir.py	/^def visitNop(method, dex, instr_d, type_data, block, instr):$/;"	f
+visitRetInt	enjarify/typeinference/typeinference.py	/^def visitRetInt(dex, instr, cur):$/;"	f
+visitRetObj	enjarify/typeinference/typeinference.py	/^def visitRetObj(dex, instr, cur):$/;"	f
+visitReturn	enjarify/jvm/optimization/stack.py	/^    def visitReturn(self):$/;"	m	class:ConstInliner
+visitReturn	enjarify/jvm/optimization/stack.py	/^    def visitReturn(self):$/;"	m	class:StoreLoadPruner
+visitReturn	enjarify/jvm/writeir.py	/^def visitReturn(method, dex, instr_d, type_data, block, instr):$/;"	f
+visitStaticGet	enjarify/jvm/writeir.py	/^def visitStaticGet(method, dex, instr_d, type_data, block, instr):$/;"	f
+visitStaticGet	enjarify/typeinference/typeinference.py	/^def visitStaticGet(dex, instr, cur):$/;"	f
+visitStaticPut	enjarify/jvm/writeir.py	/^def visitStaticPut(method, dex, instr_d, type_data, block, instr):$/;"	f
+visitSwitch	enjarify/jvm/writeir.py	/^def visitSwitch(method, dex, instr_d, type_data, block, instr):$/;"	f
+visitThrow	enjarify/jvm/writeir.py	/^def visitThrow(method, dex, instr_d, type_data, block, instr):$/;"	f
+visitUnaryOp	enjarify/jvm/writeir.py	/^def visitUnaryOp(method, dex, instr_d, type_data, block, instr):$/;"	f
+visitUnaryOp	enjarify/typeinference/typeinference.py	/^def visitUnaryOp(dex, instr, cur):$/;"	f
+wide	enjarify/jvm/ir.py	/^    wide = False # will be null, string or class - always single$/;"	v	class:OtherConstant
+widenIfNecessary	enjarify/jvm/ir.py	/^    def widenIfNecessary(self, labels, posd):$/;"	m	class:LazyJumpBase
+write	enjarify/byteio.py	/^    def write(self, s):$/;"	m	class:Writer
+write	enjarify/jvm/constantpool.py	/^    def write(self, stream):$/;"	m	class:SimpleConstantPool
+write	enjarify/jvm/constantpool.py	/^    def write(self, stream):$/;"	m	class:SplitConstantPool
+writeBytecode	enjarify/jvm/writeir.py	/^def writeBytecode(pool, method, opts):$/;"	f
+writeCodeAttributeTail	enjarify/jvm/writebytecode.py	/^def writeCodeAttributeTail(pool, irdata, opts):$/;"	f
+writeField	enjarify/jvm/writeclass.py	/^def writeField(pool, stream, field):$/;"	f
+writeMethod	enjarify/jvm/writeclass.py	/^def writeMethod(pool, stream, method, code_attr_data):$/;"	f
+writeMethods	enjarify/jvm/writeclass.py	/^def writeMethods(pool, stream, methods, opts):$/;"	f
+writeToJar	enjarify/main.py	/^def writeToJar(fname, classes):$/;"	f
