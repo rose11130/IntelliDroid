@@ -1,11 +1,13 @@
 #!/bin/bash
 
-DARE=$(dirname $0)/dare-1.1.0-linux/dare
+#we annotate all codes about DARE, change it to enjarify.
+#DARE=$(dirname $0)/dare-1.1.0-linux/dare
 
-if [ "$(uname)" == "Darwin" ]; then
-    DARE=$(dirname $0)/dare-1.1.0-macos/dare
-fi
+#if [ "$(uname)" == "Darwin" ]; then
+#    DARE=$(dirname $0)/dare-1.1.0-macos/dare
+#fi
 
+ENJ=$(dirname $0)/enjarify/enjarify
 APKTOOL=$(dirname $0)/apktool-2.0.0rc4/apktool
 
 preprocessAPK() {
@@ -31,16 +33,20 @@ preprocessAPK() {
 
     apkFile=${apkDir}/${appName}.apk
     extractedApkDir=${apkDir}/apk
-    dareDir=${apkDir}/dare
+    #dareDir=${apkDir}/dare
 
     # Use apktool to expand the APK file and copy the manifest
     ${APKTOOL} d -o ${extractedApkDir} -s ${apkFile}
     #cp ${extractedApkDir}/AndroidManifest.xml ${apkDir}/AndroidManifest.xml
 
     # Use dare to convert Dex bytecode to Java bytecode and place class files into jar
-    ${DARE} -d ${dareDir} ${apkFile}
-    jar cf ${extractedApkDir}/classes.jar -C ${dareDir}/retargeted/${appName} .
-    rm -r ${dareDir}
+    #${DARE} -d ${dareDir} ${apkFile}
+    # 打包成classes.jar，-C表示转到相应的目录下执行jar命令,相当于cd到那个目录，然后不带-C执行jar命令
+    #jar cf ${extractedApkDir}/classes.jar -C ${dareDir}/retargeted/${appName} .
+    #rm -r ${dareDir}
+
+    # Use enjarify to convert Dex bytecode to Java bytecode and place class files into jar
+    ${ENJ} -f ${apkFile} -o ${extractedApkDir}/classes.jar
 }
 
 preprocessAPKDir() {
