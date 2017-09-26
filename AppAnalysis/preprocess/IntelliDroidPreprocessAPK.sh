@@ -65,15 +65,16 @@ preprocessAPKDir() {
 
     if [[ ! -e "${extractedApkDir}" ]] || [[ ! -e "${extractedApkDir}/classes.jar" ]]; then
         apkFile=${apkDir}/${appName}.apk
-        dareDir=${apkDir}/dare
+        #dareDir=${apkDir}/dare
 
         # Use apktool to expand the APK file and copy the manifest
         ${APKTOOL} d -f -o ${extractedApkDir} -s ${apkFile}
         #cp ${extractedApkDir}/AndroidManifest.xml ${apkDir}/AndroidManifest.xml
 
         # Use dare to convert Dex bytecode to Java bytecode and place class files into jar
-        ${DARE} -d ${dareDir} ${apkFile}
-        jar cf ${extractedApkDir}/classes.jar -C ${dareDir}/retargeted/${appName} .
-        rm -r ${dareDir}
+#${DARE} -d ${dareDir} ${apkFile}
+#jar cf ${extractedApkDir}/classes.jar -C ${dareDir}/retargeted/${appName} .
+#rm -r ${dareDir}
+       ${ENJ} -f ${apkFile} -o ${extractedApkDir}/classes.jar
     fi
 }
