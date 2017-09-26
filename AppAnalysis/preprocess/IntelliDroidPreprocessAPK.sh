@@ -7,7 +7,8 @@
 #    DARE=$(dirname $0)/dare-1.1.0-macos/dare
 #fi
 
-ENJ=$(dirname $0)/enjarify/enjarify
+#ENJ=$(dirname $0)/enjarify/enjarify
+ENJ=enjarify
 APKTOOL=$(dirname $0)/apktool-2.0.0rc4/apktool
 
 preprocessAPK() {
